@@ -21,7 +21,7 @@ header {
   text-align: center;
 }
 
-.logo {
+.log {
   max-height: 80px;
   margin-right: 1rem;
 }
