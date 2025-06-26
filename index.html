@@ -18,8 +18,15 @@
     header {
       background-color: #1a237e;
       color: white;
-      padding: 2rem 1rem;
+      padding: 1.5rem 1rem;
       text-align: center;
+      position: relative;
+    }
+    .logo {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      height: 50px;
     }
     header h1 {
       margin: 0;
@@ -66,11 +73,20 @@
       background-color: #eee;
       font-size: 0.9rem;
     }
+
+    @media (max-width: 600px) {
+      .logo {
+        height: 40px;
+        top: 0.8rem;
+        left: 0.8rem;
+      }
+    }
   </style>
 </head>
 <body>
 
   <header>
+    <img src="logo.png" alt="Logo de la empresa" class="logo" />
     <h1>Transportes Especializados</h1>
     <p>Movemos lo que otros no pueden</p>
   </header>
